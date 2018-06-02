@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/elementGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:choiceMode="singleChoice"
+        android:columnWidth="50dp"
+        android:listSelector="@android:color/holo_red_dark"
+        android:numColumns="3"
+
+        android:stretchMode="spacingWidth"
+        android:verticalSpacing="5dp"></GridView>
+
+</FrameLayout>
